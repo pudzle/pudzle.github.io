@@ -11,9 +11,15 @@
       var Module = { canvas: document.getElementById('canvas')  };
 
     </script>
+   
+   <system.webServer>
+    <staticContent>
+        <mimeMap fileExtension=".mem" mimeType="text/html" />
+    </staticContent>
+   </system.webServer>
 
    <script async type="text/javascript" src="standalone-community-9.0.2.js"></script>
-
+   
  </body>
 
 </html>
